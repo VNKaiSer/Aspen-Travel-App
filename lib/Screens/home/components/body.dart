@@ -21,9 +21,9 @@ class Body extends StatelessWidget {
               // mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 const Logo(),
-                SizedBox(height: size.height * 0.38),
+                SizedBox(height: size.height * 0.48),
                 const Caption(),
-                SizedBox(height: size.height * 0.015),
+                SizedBox(height: size.height * 0.01),
                 const ButtonExplore()
               ],
             )));

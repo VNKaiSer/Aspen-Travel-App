@@ -18,7 +18,7 @@ class Caption extends StatelessWidget {
               style: GoogleFonts.montserrat(
                   color: CupertinoColors.white,
                   fontSize: 24,
-                  fontWeight: FontWeight.w200)),
+                  fontWeight: FontWeight.w300)),
           Text("Luxurious\nVacation",
               style: GoogleFonts.montserrat(
                   color: CupertinoColors.white,

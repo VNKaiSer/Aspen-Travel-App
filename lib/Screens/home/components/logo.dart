@@ -9,7 +9,7 @@ class Logo extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
-      padding: EdgeInsets.only(top: size.height * 0.08),
+      padding: EdgeInsets.only(top: size.height * 0.1),
       child: const Text(
         "Aspen",
         style: TextStyle(
