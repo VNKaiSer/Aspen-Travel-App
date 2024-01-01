@@ -1,5 +1,5 @@
 import 'package:aspen_travel_app/Screens/home/home_screen.dart';
-import 'package:flutter/material.dart';
+import 'package:flutter/cupertino.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,14 +11,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const CupertinoApp(
       debugShowCheckedModeBanner: false,
       title: 'Aspen Travel App',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const HomeScreen(),
+      theme: CupertinoThemeData(),
+      home: HomeScreen(),
     );
   }
 }

@@ -1,6 +1,9 @@
 import 'package:flutter/cupertino.dart';
-
+import 'package:flutter/material.dart';
 import 'background.dart';
+import 'button_explore.dart';
+import 'caption.dart';
+import 'logo.dart';
 
 class Body extends StatelessWidget {
   const Body({
@@ -11,15 +14,17 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Background(
-        child: Container(
+        child: SizedBox(
             height: size.height,
             width: double.infinity,
             child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+              // mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Text(
-                  "Aspen",
-                )
+                const Logo(),
+                SizedBox(height: size.height * 0.38),
+                const Caption(),
+                SizedBox(height: size.height * 0.015),
+                const ButtonExplore()
               ],
             )));
   }
