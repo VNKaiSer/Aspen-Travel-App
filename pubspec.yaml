@@ -64,6 +64,13 @@ flutter:
     - family: Hiatus
       fonts:
         - asset: assets/fonts/Hiatus.ttf
+    - family: ProductSans
+      fonts:
+        - asset: assets/fonts/ProductSans-Bold.ttf
+        - asset: assets/fonts/ProductSans-Regular.ttf
+        - asset: assets/fonts/ProductSans-Light.ttf
+        - asset: assets/fonts/ProductSans-Thin.ttf
+
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

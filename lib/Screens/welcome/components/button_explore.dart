@@ -11,19 +11,22 @@ class ButtonExplore extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return CupertinoButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(context, CupertinoPageRoute(builder: (context) {
+            return Container();
+          }));
+        },
         child: Container(
           alignment: Alignment.center,
           height: size.height * 0.065,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(13), color: primaryColor),
-          child: Text(
-            "Explore",
-            style: GoogleFonts.montserrat(
+          child: const Text("Explore",
+              style: TextStyle(
                 color: CupertinoColors.white,
-                fontSize: 14,
-                fontWeight: FontWeight.bold),
-          ),
+                fontFamily: 'ProductSans',
+                fontWeight: FontWeight.w700,
+              )),
         ));
   }
 }

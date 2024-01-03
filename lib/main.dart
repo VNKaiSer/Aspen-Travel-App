@@ -1,4 +1,4 @@
-import 'package:aspen_travel_app/Screens/home/home_screen.dart';
+import 'package:aspen_travel_app/Screens/welcome/welcome_screen.dart';
 import 'package:flutter/cupertino.dart';
 
 void main() {
