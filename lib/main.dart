@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
     return const CupertinoApp(
       debugShowCheckedModeBanner: false,
       title: 'Aspen Travel App',
-      theme: CupertinoThemeData(),
-      home: HomeScreen(),
+      theme: CupertinoThemeData(
+          primaryColor: CupertinoColors.white, brightness: Brightness.light),
+      home: WelcomeScreen(),
     );
   }
 }

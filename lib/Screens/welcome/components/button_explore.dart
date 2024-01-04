@@ -1,6 +1,6 @@
+import 'package:aspen_travel_app/Screens/home/home_screen.dart';
 import 'package:aspen_travel_app/constants.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class ButtonExplore extends StatelessWidget {
   const ButtonExplore({
@@ -13,7 +13,7 @@ class ButtonExplore extends StatelessWidget {
     return CupertinoButton(
         onPressed: () {
           Navigator.push(context, CupertinoPageRoute(builder: (context) {
-            return Container();
+            return const HomeScreen();
           }));
         },
         child: Container(

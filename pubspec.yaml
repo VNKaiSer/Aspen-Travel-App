@@ -70,7 +70,6 @@ flutter:
         - asset: assets/fonts/ProductSans-Regular.ttf
         - asset: assets/fonts/ProductSans-Light.ttf
         - asset: assets/fonts/ProductSans-Thin.ttf
-
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
