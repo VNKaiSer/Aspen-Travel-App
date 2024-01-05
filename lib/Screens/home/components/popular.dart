@@ -12,11 +12,11 @@ class Popular extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Column(children: <Widget>[
-      TopPopularTitle(),
+      const TopPopularTitle(),
       SizedBox(
         height: size.height * 0.02,
       ),
-      SingleChildScrollView(
+      const SingleChildScrollView(
         scrollDirection: Axis.horizontal,
         child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -75,22 +75,22 @@ class PopularCard extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Container(
-                        padding:
-                            EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-                        child: TextPlacePopular(
-                          text: location,
-                        ),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 8),
                         decoration: BoxDecoration(
                           color: HexColor("4D5652"),
                           borderRadius: BorderRadius.circular(15),
+                        ),
+                        child: TextPlacePopular(
+                          text: location,
                         ),
                       ),
                       SizedBox(
                         height: size.height * 0.01,
                       ),
                       Container(
-                          padding:
-                              EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 10, vertical: 8),
                           decoration: BoxDecoration(
                             color: HexColor("4D5652"),
                             borderRadius: BorderRadius.circular(15),
