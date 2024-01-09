@@ -47,7 +47,7 @@ class Review extends StatelessWidget {
         Text(
           "Aspen is as close as one can get to a storybook alpine town in America. The choose-your-own-adventure possibilities—skiing, hiking, dining shopping and ....",
           style: TextStyle(
-            fontSize: 14,
+            fontSize: 16,
             fontFamily: 'ProductSans',
           ),
         ),

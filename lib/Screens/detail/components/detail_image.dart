@@ -14,7 +14,7 @@ class DetailImage extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
     return Stack(children: <Widget>[
       Container(
-        height: size.height * 0.45,
+        height: size.height * 0.5,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),
             image: const DecorationImage(
